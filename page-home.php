@@ -17,11 +17,11 @@ get_header();
 		<span class="sub">CHOOSE YOUR COUNTRY</span>	
 
 		<div class="site_links">
-			<a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/flags/australia.png" alt="UWCB Australia"></a>
+			<a href="https://www.ultrawhitecollarboxing.com.au"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/flags/australia.png" alt="UWCB Australia"></a>
 			<a href="<?php echo site_url(); ?>/ca"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/flags/canada.png" alt="UWCB Canada"></a>
-			<a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/flags/poland.png" alt="UWCB Poland"></a>
+			<a href="https://www.ultrawhitecollarboxing.pl"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/flags/poland.png" alt="UWCB Poland"></a>
 			<a href="https://www.ultrawhitecollarboxing.co.uk"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/flags/united-kingdom.png" alt="UWCB United Kingdom"></a>
-			<a href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/flags/united-states.png" alt="UWCB United States"></a>
+			<a href="https://www.ultrawhitecollarboxing.com"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/flags/united-states.png" alt="UWCB United States"></a>
 		</div>
 
 	</main><!-- #main -->
