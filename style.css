@@ -970,14 +970,17 @@ textarea {
 @font-face {
 	font-family: 'ForzaBlack';
 	src: url('assets/fonts/Forza-Black.otf');
+	font-display: swap;
 }
 @font-face {
 	font-family: 'ForzaBold';
 	src: url('assets/fonts/Forza-Bold.otf');
+	font-display: swap;
 }
 @font-face {
 	font-family: 'ForzaMedium';
 	src: url('assets/fonts/Forza-Medium.otf');
+	font-display: swap;
 }
 h1 {
 	font-family: 'ForzaBlack', sans-serif;
@@ -1048,7 +1051,8 @@ main {
 	width: 100%;
 }
 .site_links img {
-	max-width: 100px;
+	width: 100px;
+	height: 100px;
 	transition: all 0.3s ease-in-out;
 }
 .site_links img:hover {
@@ -1067,6 +1071,10 @@ main {
 		grid-template-columns: 1fr 1fr 1fr;
 		max-width: unset;
 	}
+	.site_links img {
+		width: 70px;
+		height: 70px;
+	}
 }
 @media screen and (max-width: 400px) {
 	img.custom-logo {
@@ -1078,8 +1086,5 @@ main {
 	.sub {
 		font-weight: 900;
 		letter-spacing: 0.9em;
-	}
-	.site_links img {
-		width: 80px;
 	}
 }
